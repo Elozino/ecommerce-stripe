@@ -2,8 +2,7 @@ import React from 'react'
 import Head from "next/head"
 
 //components
-import Navbar from './Navbar'
-import Footer from './Footer'
+import { Navbar, Footer } from "../components"
 
 const Layout = ({ children }) => {
   return (
